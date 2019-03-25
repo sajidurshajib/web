@@ -1,11 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Mycontrollers extends CI_Controller {
+class My404 extends CI_Controller {
 
 	public function index()
 	{
-		echo "Working";
-		//$this->load->view($meo);
+		$this->load->view('404');
 	}
+
 }

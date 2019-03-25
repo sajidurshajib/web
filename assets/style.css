@@ -1,9 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-
 *{
     margin: 0;
     padding: 0;
 }
-h2{
-    font-family: 'Indie Flower', cursive;
+html, body{
+    height: 100%;
+    margin: 0;
 }
+
+
+/*Error page : Sajidur*/
+.error_div{
+    background-color: #2B2B2B;
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding-top:200px; 
+}
+.error_div h1{
+    font-size: 125px;
+}
+.error_div h2{
+    font-size: 25px;
+}
+.error_div a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding:8px 30px;
+    background-color:#F2762E;
+    border-radius: 50px; 
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    transition: 300ms;
+}
+.error_div a:hover{
+    text-decoration: none;
+    padding:8px 40px;
+}
+/*Error page finished*/
