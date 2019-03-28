@@ -40,3 +40,42 @@ html, body{
 }
 /*Error page finished*/
 
+/*Form : Sajidur*/
+.form-main{
+    height: 100%;
+    background-color: #2B2B2B;
+    padding-top: 50px;
+}
+.form-main h2{
+    color:#fff;
+}
+.form-main input{
+    width: 100%;
+    color:white;
+    background-color: #2B2B2B;
+    border:none;
+    border-bottom:2px solid #F2762E;
+    padding: 10px 15px;
+    margin: 5px 0;
+}
+.form-main button{
+    color:#fff;
+    background-color: #F2762E;
+    border:none;
+    border-radius: 2px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+}
+.form-main button:hover{
+    background-color:#fa8d4d;
+}
+
+.form-main-def > h1 {
+    color: #F2762E;
+}
+.form-main-def p{
+    color: #fff;
+}
+
+/*Form finished*/

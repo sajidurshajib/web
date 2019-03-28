@@ -56,6 +56,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['demo'] = 'welcome/demo';
 
 $route['register'] = 'userFormControllers';
+$route['login'] = 'userFormControllers/login';
 
 //$route['(:any)'] = 'welcome/every/$1';
 //$route['mycontrollers/(:any)'] = 'mycontrollers/index';
