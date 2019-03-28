@@ -5,6 +5,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h2 class="alert alert-warning">Home page</h2>
+    <h2 class="alert alert-primary">Home page</h2>
 </body>
 </html>

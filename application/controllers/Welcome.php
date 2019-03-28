@@ -27,7 +27,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('demo');
 	}
-
+	
 	/*
 	public function every($name)
 	{
