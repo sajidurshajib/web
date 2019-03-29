@@ -7,12 +7,10 @@ class DbControllers extends CI_Controller {
 	{
         $this->load->dbforge();
 
-        if ($this->db->table_exists('user_data') )
-        {
+        if ($this->db->table_exists('user_data') ){
             echo " 'user_data' table exists";
         }
-        else
-        {
+        else{
             $this->load->model('user_table');
             $this->user_table->createUserTable();
         }
