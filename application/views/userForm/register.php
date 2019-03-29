@@ -19,14 +19,11 @@
                         <input type="text" placeholder="University provided id">
                         <input type="text" placeholder="Department">
                         <input type="text"  placeholder="batch ( just number )">
-                        <div class="custom-select" style="width:200px;">
                             <select>
                                 <option value="0">Gender</option>
                                 <option value="1">Male</option>
                                 <option value="2">Female</option>
                             </select>
-                        </div>
-                        <input type="text" placeholder="Gender: Male/Female">
                         <button>Submit</button>
                     </form>
                 </div>
@@ -39,7 +36,5 @@
             </div>
         </div>
     </div>
-    <!--Dropdown js-->
-    <script src="<?php echo base_url();?>assets/js/drop-down.js"></script>
 </body>
 </html>
