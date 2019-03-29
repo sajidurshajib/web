@@ -39,5 +39,7 @@
             </div>
         </div>
     </div>
+    <!--Dropdown js-->
+    <script src="<?php echo base_url();?>assets/js/drop-down.js"></script>
 </body>
 </html>

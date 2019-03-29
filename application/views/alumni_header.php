@@ -14,8 +14,5 @@
     <script src="<?php echo base_url();?>assets/js/jquery-3.3.1.min.js"></script>
     <script src="<?php echo base_url();?>assets/js/popper.min.js"></script>
 
-    <!--Dropdown js-->
-    <script src="<?php echo base_url();?>assets/js/drop-down.js"></script>
-
     <!--bootstrap.js-->
     <script src="<?php echo base_url();?>assets/bootstrap/bootstrap.min.js"></script>
