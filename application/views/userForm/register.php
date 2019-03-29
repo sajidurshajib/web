@@ -19,10 +19,13 @@
                         <input type="text" placeholder="University provided id">
                         <input type="text" placeholder="Department">
                         <input type="text"  placeholder="batch ( just number )">
-                        <select name="" id="" class="form-control">
-                            <option value="">Male</option>
-                            <option value="">female</option>
-                        </select>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0">Gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                        </div>
                         <input type="text" placeholder="Gender: Male/Female">
                         <button>Submit</button>
                     </form>
