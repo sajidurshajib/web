@@ -13,11 +13,17 @@
                     <h2>REGISTRATION</h2>
                     <form action="">
                         <input type="text" placeholder="Your name:">
-                        <input type="text" placeholder="University provided id">
                         <input type="email" placeholder="your-email@website.com">
                         <input type="password" placeholder="password">
                         <input type="password" placeholder="retype-password">
-                        <input type="text" placeholder="Batch">
+                        <input type="text" placeholder="University provided id">
+                        <input type="text" placeholder="Department">
+                        <input type="text"  placeholder="batch ( just number )">
+                        <select name="" id="" class="form-control">
+                            <option value="">Male</option>
+                            <option value="">female</option>
+                        </select>
+                        <input type="text" placeholder="Gender: Male/Female">
                         <button>Submit</button>
                     </form>
                 </div>
