@@ -55,7 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['demo'] = 'welcome/demo';
 
-$route['install'] = 'dbControllers';
+$route['install'] = 'installDB';
 
 $route['register'] = 'userFormControllers';
 $route['login'] = 'userFormControllers/login';

@@ -63,6 +63,24 @@ html, body{
     width:96%;
     margin-left:2%;
 }
+
+/*half input*/
+.form-main input.half-input-left{
+    width:48%;
+    margin-right:2%;
+}
+.form-main input.half-input-right{
+    width:47%;
+    margin-left:2%;
+}
+.form-main .half-input-left:focus{
+    width:46%;
+    margin-right:2%;
+}
+.form-main .half-input-right:focus{
+    width:43%;
+    margin-left:2%;
+}
 .form-main button{
     color:#fff;
     background-color: #F2762E;
@@ -82,21 +100,6 @@ html, body{
 .form-main-def p{
     color: #fff;
 }
-select{
-  border: 0 !important;  /*Removes border*/
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  text-overflow:'';
-  text-indent: 0.01px; /* Removes default arrow from firefox*/
-  text-overflow: "";  /*Removes default arrow from firefox*/
-}
-select::-ms-expand {
-  display: none;
-}
-.select-wrapper
-{
-  padding-left:0px;
-  overflow:hidden;
-}
+
+
 /*Form finished*/

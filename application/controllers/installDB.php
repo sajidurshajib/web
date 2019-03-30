@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class DbControllers extends CI_Controller {
+class InstallDB extends CI_Controller {
 
 	public function index()
 	{

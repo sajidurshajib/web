@@ -18,12 +18,8 @@
                         <input type="password" placeholder="retype-password">
                         <input type="text" placeholder="University provided id">
                         <input type="text" placeholder="Department">
-                        <input type="text"  placeholder="batch ( just number )">
-                            <select>
-                                <option value="0">Gender</option>
-                                <option value="1">Male</option>
-                                <option value="2">Female</option>
-                            </select>
+                        <input type="password" class="half-input-left" placeholder="batch ( just number )">
+                        <input type="text" class="half-input-right" placeholder="gender">
                         <button>Submit</button>
                     </form>
                 </div>
