@@ -7,6 +7,7 @@ class InstallDB extends CI_Controller {
 	{
         $this->load->dbforge();
 
+        /*createUserTable*/
         if ($this->db->table_exists('user_data') ){
             echo " 'user_data' table exists";
         }

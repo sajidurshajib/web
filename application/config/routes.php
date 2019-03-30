@@ -53,12 +53,10 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = 'my404';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['demo'] = 'welcome/demo';
-
 $route['install'] = 'installDB';
 
-$route['register'] = 'userFormControllers';
-$route['login'] = 'userFormControllers/login';
+$route['login'] = 'userForm';
+$route['register'] = 'userForm/register';
 
 //$route['(:any)'] = 'welcome/every/$1';
 //$route['mycontrollers/(:any)'] = 'mycontrollers/index';
