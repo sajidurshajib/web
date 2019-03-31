@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <?php include __DIR__.'/../alumni_header.php';?>
     <title>Register</title>
 </head>
@@ -12,14 +11,14 @@
                 <div class="col-md-5">
                     <h2>REGISTRATION</h2>
                     <form action="">
-                        <input type="text" placeholder="Your name:">
-                        <input type="email" placeholder="your-email@website.com">
-                        <input type="password" placeholder="password">
-                        <input type="password" placeholder="retype-password">
-                        <input type="text" placeholder="University provided id">
-                        <input type="text" placeholder="Department">
-                        <input type="password" class="half-input-left" placeholder="batch ( just number )">
-                        <input type="text" class="half-input-right" placeholder="gender">
+                        <input type="text" placeholder="Your name:" required>
+                        <input type="email" placeholder="your-email@website.com" required>
+                        <input type="password" placeholder="password" required>
+                        <input type="password" placeholder="retype-password" required>
+                        <input type="text" placeholder="University provided id" required>
+                        <input type="text" placeholder="Department" required>
+                        <input type="password" class="half-input-left" placeholder="batch ( just number )" required>
+                        <input type="text" class="half-input-right" placeholder="gender" required>
                         <button>Submit</button>
                     </form>
                 </div>

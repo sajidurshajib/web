@@ -63,6 +63,10 @@ html, body{
     width:96%;
     margin-left:2%;
 }
+.form-main input:required{
+    box-shadow: none;
+    border-bottom: 2px solid #F2762E;
+}
 
 /*half input*/
 .form-main input.half-input-left{
@@ -102,4 +106,15 @@ html, body{
 }
 
 
+.login{
+    padding: 60px 30px;
+    box-shadow:5px 10px 20px #000;
+}
+.login h2{
+    text-align: left;
+    margin-left: 15px;
+}
+.login button{
+    margin-left:15px;
+}
 /*Form finished*/
