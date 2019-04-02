@@ -32,7 +32,7 @@ class Teachers_table extends CI_Model{
                     'type' => 'VARCHAR',
                     'constraint' => '100',
             ),
-            'position' => array(
+            'resignation' => array(
                     'type' =>'VARCHAR',
                     'constraint' => '50',
             ),

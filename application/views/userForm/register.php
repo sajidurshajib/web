@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include __DIR__.'/../alumni_header.php';?>
+<?php include __DIR__.'/../header.php';?>
     <title>Register</title>
 </head>
 <body>
+<?php include __DIR__.'/../menu.php' ?>
     <div class="form-main">
         <div class="container">
             <div class="row">

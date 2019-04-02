@@ -7,6 +7,80 @@ html, body{
     margin: 0;
 }
 
+/*Menu */
+.menu-wrapper{
+    color: #fff;
+    background-color: #2B2B2B;
+    padding: 5px 0;
+}
+.menu-wrapper h4{
+    color:#F2762E;
+}
+.menu{
+    position: relative;
+}
+.menu ul{
+    list-style: none;
+    overflow: hidden;
+    position:absolute;
+    right: 0;
+    margin-bottom: 0;
+}
+.menu ul li{
+    float: left;
+    padding: 5px 0;
+}
+.menu ul li a{
+    color: #F2762E;
+    padding: 5px 30px;
+    transition: 300ms;
+    border-radius: 50px;
+}
+.menu ul li a:hover{
+    color:#fff;
+    background-color: #F2762E;
+    text-decoration: none;
+}
+.menu ul li a:active{
+    color:#fff;
+    background-color: #F2762E;
+    text-decoration: none;
+}
+
+/*Secondary menu*/
+.submenu-wrapper{
+    background-color: #2B2B2B;
+    border-top:5px solid #F2762E;
+    border-bottom:5px solid #2B2B2B;
+}
+.submenu{}
+.submenu ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+}
+.submenu ul li{
+    float: left;
+    padding: 6px 0;
+}
+.submenu ul li a{
+    color: #F2762E;
+    padding:8px 25px;
+    transition: 300ms;
+}
+.submenu ul li a:hover{
+    color: #fff;
+    background-color: #F2762E;
+    text-decoration: none;
+    border-radius:0 0 5px 5px;
+}
+.submenu ul li a:active{
+    color: #fff;
+    background-color: #F2762E;
+    text-decoration: none;
+    border-radius:0 0 5px 5px;
+}
+
 
 /*Error page : Sajidur*/
 .error_div{

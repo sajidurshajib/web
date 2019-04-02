@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php include 'alumni_header.php'?>
+<?php include 'header.php'?>
     <title>Document</title>
 </head>
 <body>
