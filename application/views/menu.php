@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<?php include 'header.php';?>
-    <title>Document</title>
-</head>
-<body>
+
     <div class="menu-wrapper">
         <div class="container-fluid">
             <div class="row">
@@ -23,5 +17,3 @@
             </div>
         </div>
     </div>
-</body>
-</html>

@@ -5,8 +5,13 @@
     <!--bootstrap.css-->
     <link rel="stylesheet" href="<?php echo base_url();?>assets/bootstrap/bootstrap.min.css">
     <!--fontawesome.css-->
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/fontawesome/css/all.min.css">
-    <!--Mt style.css-->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/fontawesome/css/all.min.css">    
+
+    <!--Owl css-->
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/owl/owl.theme.default.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/owl/owl.carousel.min.css">
+    
+    <!--My style.css-->
     <link rel="stylesheet" href="<?php echo base_url();?>assets/style.css">
 
 
