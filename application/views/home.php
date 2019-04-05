@@ -7,6 +7,8 @@
 <body>
     <?php include 'menu.php';?>
     <?php include 'slider.php';?>
-    <?php include 'submenu.php';?>    
+    <?php include 'submenu.php';?>   
+    <?php include 'events.php';?>
+    <?php include 'about.php';?> 
 </body>
 </html>

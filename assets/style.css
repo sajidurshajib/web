@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
 }
-html, body{
-    height: 100%;
-    margin: 0;
+body{
+    background-color: #2B2B2B;
 }
 
 
@@ -91,7 +90,7 @@ html, body{
 }
 .item{
     position: relative;
-    height: 400px;
+    height: 550px;
     background-size:cover;
     background-position: center;
     width: 100%;
@@ -110,7 +109,7 @@ html, body{
 }
 .slide-contant{
     position: absolute;
-    bottom: 40px;
+    bottom: 100px;
     color: #fff;
     z-index: 100;
     visibility: hidden;
@@ -143,7 +142,7 @@ html, body{
     display: block;
     width: 100%;
     position: absolute;
-    bottom: 250px;
+    bottom: 300px;
     color: #F2762E;
     font-size: 50px;
     visibility: hidden;
@@ -168,48 +167,103 @@ html, body{
     color: #FFF;
     text-decoration: none; 
 }
+/*=========== slider finished =======================*/
 
 
 
-/*Error page : Sajidur*/
-.error_div{
-    background-color: #2B2B2B;
-    color: white;
-    text-align: center;
-    height: 100%;
-    padding-top:200px; 
+
+
+
+/*=================== Heme page EVENT section: Sajidur ==================*/
+.three_events{
+    padding: 100px 0;
 }
-.error_div h1{
-    font-size: 125px;
-}
-.error_div h2{
-    font-size: 25px;
-}
-.error_div a{
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    padding:8px 30px;
-    background-color:#F2762E;
-    border-radius: 50px; 
-    font-weight: bold;
+.event-card{
+    background: #FFF;
+    border-radius: 5px;
     position: relative;
-    top: 20px;
+    text-align: center;
+    box-shadow: #000 10px 10px 25px;
     transition: 300ms;
 }
-.error_div a:hover{
-    text-decoration: none;
-    padding:8px 40px;
+.event-card:hover{
+    box-shadow: #000 10px 10px 40px;
 }
-/*============= Error page finished ===================*/
+.event-card:hover .event-contant>h4{
+    color: #F2762E;
+}
+.event-bg{
+    width:100%;
+    border-radius: 5px 5px 0 0;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.event-contant{
+    padding: 20px;
+    text-align: center;
+}
+.event-contant>h4{
+    color: #000;
+    transition: 300ms;
+    font-weight: 600;
+}
+.event-contant p{
+    text-align: justify;
+}
+.event-contant a{
+    color: #FFF;
+    background-color: #F2762E;
+    border-radius: 50px;
+    padding: 5px 25px;
+    text-decoration: none;
+    transition:300ms;
+    text-align: center;
+}
+.event-contant a:hover{
+    padding: 5px 35px;
+}
+/*======================= Event section finished ==============================*/
 
 
 
 
 
-/*Form : Sajidur*/
+/*==========================About:Sajidur==================================*/
+.about-wrapper .col-md-3,.about-wrapper .col-md-2,.about-wrapper .col-md-6{
+    margin: 0;
+    padding: 0;
+}
+.about-wrapper{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.about-wrapper .col-md-2{
+    position: relative;
+    z-index: 50;
+    background-color:#F2762E; 
+    opacity: 0.4;
+}
+.about-wrapper .col-md-6{
+    position: relative;
+    z-index: 50;
+    background-color:#2B2B2B; 
+    opacity: 0.9;
+}
+.about-section{
+    color: #FFF;
+    padding: 100px 50px;
+}
+
+/*==================== About section finished ========================*/
+
+
+
+
+/*====================== Form : Sajidur ========================*/
 .form-main{
-    height: 100%;
     background-color: #2B2B2B;
     padding-top: 50px;
 }
@@ -285,3 +339,42 @@ html, body{
     margin-left:15px;
 }
 /*Form finished*/
+
+
+
+
+
+
+/*Error page : Sajidur*/
+.error_div{
+    background-color: #2B2B2B;
+    color: white;
+    text-align: center;
+    padding-top:200px; 
+}
+.error_div h1{
+    font-size: 125px;
+}
+.error_div h2{
+    font-size: 25px;
+}
+.error_div a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding:8px 30px;
+    background-color:#F2762E;
+    border-radius: 50px; 
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    transition: 300ms;
+}
+.error_div a:hover{
+    text-decoration: none;
+    padding:8px 40px;
+}
+/*============= Error page finished ===================*/
+
+
+
