@@ -139,9 +139,35 @@ html, body{
     text-decoration: none;
 }
 
-
-
-
+.owl-nav {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 250px;
+    color: #F2762E;
+    font-size: 50px;
+    visibility: hidden;
+    transition:300ms;
+}
+.slider:hover .owl-nav{
+    visibility: visible;
+}
+.owl-nav button:hover{
+    background: transparent;
+}
+.owl-prev {
+    position: absolute;
+    left: 30px;
+}
+.owl-next {
+    position: absolute;
+    right: 30px;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent;
+    color: #FFF;
+    text-decoration: none; 
+}
 
 
 
