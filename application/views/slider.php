@@ -3,18 +3,18 @@
     <div class="owl-carousel owl-theme">
         <div class="item"  style="background-image:url('<?php echo base_url();?>/assets/img/2bg.jpg')">
             <div class="container">
-                <div class="slide-contant col-md-10">
+                <div class="slide-contant">
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita rem ratione nemo delectus quae omnis. Minus perspiciatis qui odit maiores! Expedita rem ratione nemo delectus quae omnis. Minus perspiciatis qui odit maiores</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita rem ratione nemo delectus quae omnis. Minus perspiciatis qui odit maiores! Expedita rem ratione nemo delectus quae omnis. Minus perspiciatis qui odit maiores Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque assumenda dolores suscipit, nobis dicta sequi.</p>
                     <a href="" class="slider-btn">Read more</a>
                 </div>
             </div>
         </div>
         <div class="item"  style="background-image:url('<?php echo base_url();?>/assets/img/1bg.jpg')">
             <div class="container">
-                <div class="slide-contant col-md-10">
+                <div class="slide-contant">
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita rem ratione nemo delectus quae omnis. Minus perspiciatis qui odit maiores! Expedita rem ratione nemo delectus quae omnis. Minus perspiciatis qui odit maiores</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita rem ratione nemo delectus quae omnis. Minus perspiciatis qui odit maiores! Expedita rem ratione nemo delectus quae omnis. Minus perspiciatis qui odit maiores Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui iste, modi dolorem itaque suscipit vel!</p>
                     <a href="" class="slider-btn">Read more</a>
                 </div>
             </div>

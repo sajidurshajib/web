@@ -2,7 +2,7 @@
     <div class="menu-wrapper">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3"><h4>RPSU Alumni</h4></div>
+                <div class="col-md-3"><h4>RPSU <i class="fab fa-angular"></i>Lumni</h4></div>
                 <div class="col-md-9">
                     <div class="menu">
                         <ul>

@@ -10,5 +10,6 @@
     <?php include 'submenu.php';?>   
     <?php include 'events.php';?>
     <?php include 'about.php';?> 
+    <?php include 'members.php';?> 
 </body>
 </html>
